@@ -1,0 +1,30 @@
+CSS
+/* Card layout */
+.card {
+    width: 300px;
+    padding: 20px;
+    margin: 40px auto;
+    border-radius: 12px;
+    background-color: #ffffff; /* change to your brand color */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Name styling (ID selector) */
+#profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000; /* change to brand text color */
+}
+
+/* Contact info styling (Class selector) */
+.card-info {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #333333;
+}
+
+.card-info p {
+    margin: 5px 0;
+}
